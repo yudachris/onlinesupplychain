@@ -66,7 +66,7 @@
 @media(min-device-height:730px){
   .bg1,.bg2,.bg3,.bg5{
 
-    min-height: 770px;
+    min-height: 100vh;
   }
 }
 
@@ -203,3 +203,6 @@ h2{
     <a href='<?php echo base_url()?>main/about_developer'><button class='btn btn-dev-custom btn-lg'>About the <strong>Developer</strong></button></a>
 
 </div>-->
+
+
+
