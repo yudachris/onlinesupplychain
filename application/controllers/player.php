@@ -32,7 +32,7 @@ class Player extends CI_Controller {
         $this->db->where('game_name', $gamename);
         $this->db->where('player_id', $player_id);
         $data['spability'] =  $this->db->get('player')->result()[0]->spability;
-        
+        $data['pageException'] = 'playerhome';
         $this->db->where('game_name',$gamename);
         $data['cost_rule'] = $this->db->get('cost')->result()[0];
         $data['title'] = $this->session->userdata('username') . " - Game Module";
@@ -122,7 +122,7 @@ class Player extends CI_Controller {
 
         $this->load->model('game_dynamics');
         $this->game_dynamics->login_check();
-        
+        $data['pageException'] = 'comphistory';
         $data['title'] = "Player's Complete History";
         $this->load->view('PlayerPages/complete_history',$data);   
         $this->load->view('Etc/Footer');

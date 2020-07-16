@@ -86,7 +86,7 @@
 
 
         </script>	
-        <style type="text/css">
+        <style type="text/css"> 
         .panel-body{
             font-family: 'Poppins', sans-serif;   
         }
@@ -131,6 +131,7 @@
         }
         body{
             background-image: url(<?php echo base_url();?>images/blue-background.jpg);
+            position:relative;
         }
         .panel-body{
             background-color: #dde0da;
@@ -504,6 +505,3 @@
           </div>
 		</div>
 	</div>
-    </div>
-</body>
-</html>

@@ -12,6 +12,9 @@
         <script src="<?php echo base_url(); ?>js/gamescript.js"></script>
         <script src="<?php echo base_url(); ?>js/waitingroom.js"></script>
         <style type="text/css">
+        .waiting-room{
+            min-height: calc(100vh - 130px);
+        }
         div.stat-box{
             border:solid gray 1px;
             border-radius: 10px;
@@ -49,7 +52,7 @@
         </style>
     </head>
     <body style='background: url(<?php echo base_url()?>images/loadcrane.jpg); background-repeat: no-repeat;'>
-            <div class="container">
+            <div class="container waiting-room">
             <div class='row'>
                 <div class='col-lg-4' style='padding: 30px'>
                 <a href='../main/player_logout'>

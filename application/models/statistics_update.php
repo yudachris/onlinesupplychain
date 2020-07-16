@@ -32,13 +32,13 @@ class Statistic_update extends CI_Model{
                     'turn_count'=>$turn_count,
                     'player_id'=>$player_id,
                     'player_team'=>$teamconv[$st],
-                    'current_backlog'
-                    'current_backlog_cost'
-                    'current_inventory'
-                    'current_excess_inventory'
-                    'current_inventory_cost'
-                    'current_excess_inv_cost'
-                    'current_demand'
+                    'current_backlog',
+                    'current_backlog_cost',
+                    'current_inventory',
+                    'current_excess_inventory',
+                    'current_inventory_cost',
+                    'current_excess_inv_cost',
+                    'current_demand',
                     );
 
             }            
